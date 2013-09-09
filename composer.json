@@ -1,13 +1,13 @@
 {
-    "name": "rezzza/flickr",
-    "description": "Flickr API Wrapper",
+    "name": "hinablue/rezzza-flickr",
+    "description": "Flickr API Wrapper modified by Hina Chen.",
     "keywords": ["flickr"],
     "type": "standalone",
-    "homepage": "https://github.com/rezzza/flickr",
+    "homepage": "https://github.com/hinablue/flickr",
     "license": "MIT",
     "authors": [{
         "name": "Community contributors",
-        "homepage": "https://github.com/rezzza/flickr/contributors"
+        "homepage": "https://github.com/hinablue/flickr/contributors"
     }],
     "require": {
         "php": ">=5.3.2"

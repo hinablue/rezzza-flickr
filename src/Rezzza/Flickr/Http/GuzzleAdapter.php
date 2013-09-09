@@ -26,7 +26,8 @@ class GuzzleAdapter implements AdapterInterface
         // flickr does not supports this header and return a 417 http code during upload
         $request->removeHeader('Expect');
 
-        return $request->send()
-            ->xml();
+        $result = $request->send()->getBody(true);
+        $result = str_replace('jsonFlickrApi(', '', $result);
+        return substr($result, 0, strlen($result) - 1);
     }
 }

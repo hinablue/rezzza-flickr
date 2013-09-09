@@ -61,7 +61,7 @@ class ApiFactory
 
         $default = array(
             'api_key' => $this->metadata->getApiKey(),
-            'format'  => 'rest',
+            'format'  => 'json',
         );
 
         if ($service) {
